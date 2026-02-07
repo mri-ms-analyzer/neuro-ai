@@ -135,10 +135,11 @@ neuro-ai/
 ├── data/                        # Sample data and examples
 │   ├── sample_cases/            # 3 representative cases
 │   ├── validation_cases/        # 15 validation cases
-│   └── example_outputs/         # Pre-computed results
+│   └── AI_outputs/         # AI-analyzed results
 │
 ├── validation/                  # Validation scripts and data
 │   ├── expert_evaluation_data/  # Expert assessment results
+│   ├── evaluation_analysis_results/  # Statistical Analysis Results
 │   ├── statistical_analysis.py  # Correlation and metrics
 │   └── generate_figures.py      # Reproduce manuscript figures
 │
