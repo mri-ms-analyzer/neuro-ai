@@ -6,7 +6,7 @@
 
 A comprehensive clinical decision support system for automated multiple sclerosis (MS) lesion characterization from T2-FLAIR MRI imaging. This framework provides standardized, reproducible quantitative metrics aligned with McDonald 2017 diagnostic criteria.
 
-> **Reference**: XXX et al. (2026). "AI-Driven Multi-Parametric MS Lesion Analysis: A Clinical Decision Support Framework for Neuroradiology." *Journal of Imaging Informatics in Medicine* (In Press).
+> **Reference**: XXX et al. (2026). "AI-Driven Multi-Parametric MS Lesion Analysis from T2-FLAIR Imaging: A Clinical Decision Support Framework for Neuroradiology." *Journal of Imaging Informatics in Medicine* (In Press).
 
 ---
 
