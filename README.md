@@ -32,7 +32,7 @@ Five-domain comprehensive assessment:
 5. **Intensity Characterization**: Lesion heterogeneity profiling
 
 ### Clinical Validation
-- **Expert Correlation**: r > 0.95 across all lesion categories (n=15 cases)
+- **Expert Correlation**: r > 0.9 across all lesion categories (n=15 cases)
 - **Workflow Efficiency**: 74.2% reduction in analysis time (11.3 → 3.0 minutes per case)
 - **Diagnostic Accuracy**: 4.3 ± 0.5 / 5.0 expert rating
 - **Clinical Readiness**: 9.0 / 10.0 consensus rating from board-certified neuroradiologists
@@ -44,10 +44,10 @@ Five-domain comprehensive assessment:
 
 | Metric | Performance |
 |--------|-------------|
-| **Periventricular Lesions** | r = 0.975, MAE = 1.9 |
-| **Paraventricular Lesions** | r = 0.979, MAE = 1.7 |
-| **Juxtacortical Lesions** | r = 0.953, MAE = 0.9 |
-| **Overall Correlation** | r = 0.979, MAE = 1.5 |
+| **Periventricular Lesions** | r = 0.929, 95% CI [0.796, 0.977], MAE = 3.3 |
+| **Paraventricular Lesions** | r = 0.932, 95% CI [0.804, 0.978], MAE = 3.9 |
+| **Juxtacortical Lesions** | r = 0.927, 95% CI [0.790, 0.976], MAE = 1.7 |
+| **Overall Correlation** | r = 0.955, 95% CI [0.868, 0.985], MAE = 5.7 |
 | **Segmentation DSC** | 0.852 ± 0.004 (5-fold CV) |
 | **Processing Time** | 42.2 ± 14.4 seconds/case |
 | **Time Savings** | 74.2% (p = 0.017) |
@@ -240,10 +240,10 @@ neuro-ai/
 - **Source**: MSSEG2016 Challenge Dataset
 - **Size**: 6 cases (2 per center × 3 centers)
 - **Centers**: Multiple imaging centers with different scanners/protocols
-- **Access**: Publicly available at http://medicaldecathlon.com/
+- **Access**: Publicly available at https://portal.fli-iam.irisa.fr/msseg-challenge/
 
 ### Sample Data
-- **Included**: 3 representative cases with complete annotations
+- **Included**: 9 representative cases with complete annotations
 - **Format**: NIfTI (.nii.gz) with DICOM metadata
 - **Purpose**: Testing framework without full dataset access
 
