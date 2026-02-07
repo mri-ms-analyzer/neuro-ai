@@ -6,7 +6,7 @@
 
 A comprehensive clinical decision support system for automated multiple sclerosis (MS) lesion characterization from T2-FLAIR MRI imaging. This framework provides standardized, reproducible quantitative metrics aligned with McDonald 2017 diagnostic criteria.
 
-> **Reference**: XXX et al. (2025). "AI-Driven Multi-Parametric MS Lesion Analysis: A Clinical Decision Support Framework for Neuroradiology." *Journal of Imaging Informatics in Medicine* (In Press).
+> **Reference**: XXX et al. (2026). "AI-Driven Multi-Parametric MS Lesion Analysis: A Clinical Decision Support Framework for Neuroradiology." *Journal of Imaging Informatics in Medicine* (In Press).
 
 ---
 
@@ -325,22 +325,22 @@ processor.export_to_csv('results/cohort_metrics.csv')
 ### Expert Correlation Analysis
 
 **Institutional Dataset (n=9):**
-- Periventricular: r=0.979, MAE=1.7 lesions
-- Paraventricular: r=0.989, MAE=1.4 lesions
-- Juxtacortical: r=0.975, MAE=0.7 lesions
+- Periventricular: r=0.941, MAE=3.3 lesions
+- Paraventricular: r=0.943, MAE=3.6 lesions
+- Juxtacortical: r=0.969, MAE=1.6 lesions
 
 **External Dataset (MSSEG2016, n=6):**
-- Periventricular: r=0.971, MAE=2.2 lesions
-- Paraventricular: r=0.951, MAE=2.1 lesions
-- Juxtacortical: r=0.903, MAE=1.2 lesions
+- Periventricular: r=0.935, MAE=3.4 lesions
+- Paraventricular: r=0.925, MAE=4.3 lesions
+- Juxtacortical: r=0.906, MAE=1.8 lesions
 
 **Overall (n=15):**
-- All lesion types: r=0.979, MAE=1.5 lesions
+- All lesion types: r=0.955, MAE=5.7 lesions
 - Consistent performance across different scanners and protocols
 
 ### Workflow Efficiency
 - **Analysis Time**: 11.3±2.7 min (manual) → 3.0±1.1 min (AI-assisted)
-- **Time Reduction**: 74.2% (p=0.017, Cohen's d=5.36)
+- **Time Reduction**: 74.2% (p=0.017, Cohen's d=3.27)
 - **Expert Agreement**: Perfect inter-rater reliability (9.0±0.0 / 10.0)
 
 ### Clinical Utility Ratings (5-point Likert scale)
@@ -405,11 +405,11 @@ validator.generate_report(results, 'cv_report.pdf')
 If you use this framework in your research, please cite:
 
 ```bibtex
-@article{bawil2025neuroai,
+@article{XXX2026neuroai,
   title={AI-Driven Multi-Parametric MS Lesion Analysis: A Clinical Decision Support Framework for Neuroradiology},
-  author={Bawil, [First Name] and Shamsi, Mousa and [Other Authors]},
+  author={[Authors]},
   journal={Journal of Imaging Informatics in Medicine},
-  year={2025},
+  year={2026},
   note={In Press},
   doi={[DOI to be added upon publication]}
 }
@@ -417,10 +417,10 @@ If you use this framework in your research, please cite:
 
 **Software Citation:**
 ```bibtex
-@software{neuroai2025,
-  author={Bawil, [First Name] and Shamsi, Mousa and [Other Authors]},
+@software{neuroai2026,
+  author={[Authors]},
   title={Neuro-AI: AI-Driven MS Lesion Analysis Framework},
-  year={2025},
+  year={2026},
   publisher={GitHub},
   url={https://github.com/mri-ms-analyzer/neuro-ai}
 }
@@ -433,7 +433,7 @@ If you use this framework in your research, please cite:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Summary**:
-- ✅ Commercial use
+- ⚠️ Commercial use
 - ✅ Modification
 - ✅ Distribution
 - ✅ Private use
@@ -480,9 +480,9 @@ black src/ --check
 ## 📞 Contact & Support
 
 ### Authors
-- **Corresponding Author**: Prof. Mousa Shamsi
-  - Email: shamsi@sut.ac.ir
-  - Affiliation: Tabriz University of Medical Sciences
+- **Corresponding Author**: Prof. XXX
+  - Email: [email]
+  - Affiliation: XXX
 
 ### Issues & Questions
 - **GitHub Issues**: [Report bugs or request features](https://github.com/mri-ms-analyzer/neuro-ai/issues)
@@ -523,20 +523,20 @@ black src/ --check
 - ✅ Clinical validation on 15 cases
 - ✅ Sample data and pre-trained weights
 
-### Version 1.1 (Q2 2025)
+### Version 1.1 (Q2 2026)
 - 🔄 Longitudinal analysis module (track lesion evolution over time)
 - 🔄 Integration with additional MRI sequences (T1, T2, DWI)
 - 🔄 Enhanced visualization dashboard
 - 🔄 DICOM SR structured reporting
 
-### Version 2.0 (Q4 2025)
+### Version 2.0 (Q4 2026)
 - 📋 Full 3D segmentation architecture
 - 📋 Multi-sequence fusion (T1, T2, FLAIR, DWI, post-contrast)
 - 📋 Black hole and paramagnetic rim lesion detection
 - 📋 Cognitive correlation analysis
 - 📋 Clinical trial endpoint generation
 
-### Version 2.1 (2026)
+### Version 2.1 (2027)
 - 📋 Real-time PACS integration
 - 📋 Cloud-based processing option
 - 📋 Mobile app for remote review
@@ -547,7 +547,7 @@ black src/ --check
 
 ## 📝 Changelog
 
-### v1.0.0 (January 2025)
+### v1.0.0 (February 2026)
 - Initial public release
 - Dual cGAN segmentation models
 - Multi-parametric analysis framework
@@ -576,7 +576,7 @@ black src/ --check
 
 ---
 
-**Last Updated**: January 2025 | **Version**: 1.0.0 | **Status**: Active Development
+**Last Updated**: February 2026 | **Version**: 1.0.0 | **Status**: Active Development
 
 ---
 
