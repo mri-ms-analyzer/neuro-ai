@@ -1,0 +1,12 @@
+Category,Item,Expert Agreement,Consensus Level
+Strength,Comprehensive Lesion Detection,3 of 3,Complete
+Strength,Accurate Lesion Classification,3 of 3,Complete
+Strength,Detailed Quantitative Analysis,3 of 3,Complete
+Strength,Time-Efficient Workflow,3 of 3,Complete
+Strength,Consistent Reproducibility,3 of 3,Complete
+Strength,Educational Value for Trainees,3 of 3,Complete
+Strength,Structured Reporting Format,3 of 3,Complete
+Strength,Clinical Decision Support,2 of 3,Majority
+Limitation,Segmentation Errors,3 of 3,Complete
+Limitation,Classification Inaccuracies,2 of 3,Majority
+Limitation,Missing Clinical Context,3 of 3,Complete

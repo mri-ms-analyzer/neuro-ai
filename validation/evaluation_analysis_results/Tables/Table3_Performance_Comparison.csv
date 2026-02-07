@@ -1,0 +1,11 @@
+Performance Metric,Traditional Method,Automated Framework,Improvement,Significance,p-value
+Speed of Analysis,2.0 ± 0.8,5.0 ± 0.0,+3.0,,0.2500
+Lesion Detection Completeness,4.0 ± 0.0,4.0 ± 0.0,+0.0,,1.0000
+Classification Accuracy,4.3 ± 0.5,4.0 ± 0.0,-0.3,,0.3173
+Quantitative Detail,4.0 ± 0.0,4.7 ± 0.5,+0.7,,0.1573
+Reproducibility,4.0 ± 0.0,5.0 ± 0.0,+1.0,,0.2500
+Clinical Utility,4.0 ± 0.0,4.3 ± 0.5,+0.3,,0.3173
+Report Organization,4.0 ± 0.0,4.3 ± 0.5,+0.3,,0.3173
+Educational Value,5.0 ± 0.0,5.0 ± 0.0,+0.0,,1.0000
+Diagnostic Confidence,4.3 ± 0.5,4.0 ± 0.0,-0.3,,0.3173
+Workflow Integration,4.3 ± 0.5,4.7 ± 0.5,+0.3,,0.7500

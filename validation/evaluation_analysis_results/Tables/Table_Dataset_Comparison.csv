@@ -1,0 +1,5 @@
+Lesion Type,Overall n,Overall r,Overall MAE,Institutional n,Institutional r,Institutional MAE
+Periventricular,15,0.929,3.3,15,0.929,3.3
+Paraventricular,15,0.932,3.9,15,0.932,3.9
+Juxtacortical,15,0.927,1.7,15,0.927,1.7
+Total Lesions,15,0.955,5.7,15,0.955,5.7

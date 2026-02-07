@@ -1,0 +1,6 @@
+Analysis Method,Expert 1,Expert 2,Expert 3,Mean ± SD
+Traditional Manual Analysis,9 min,10 min,15 min,11.3 ± 2.7
+Automated Framework Analysis,2 min,2 min,5 min,3.0 ± 1.1
+Absolute Time Reduction,7 min,8 min,10 min,8.3 ± 1.5
+Relative Time Reduction (%),77.3%,76.0%,69.3%,74.2 ± 3.5
+Statistical Significance,t = 7.57,p = 0.0170,d = 3.27,*

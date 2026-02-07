@@ -1,0 +1,82 @@
+======================================================================
+MS FRAMEWORK EXPERT EVALUATION - ANALYSIS REPORT
+======================================================================
+
+Generated: 2026-02-06 20:31:15
+
+TIME EFFICIENCY ANALYSIS
+----------------------------------------------------------------------
+Traditional Time: 11.3 ± 2.7 min
+Automated Time: 3.0 ± 1.1 min
+Time Reduction: 8.3 min (74.2%)
+Statistical: t=7.57, p=0.0170, d=3.27
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Speed of Analysis:
+  Traditional: 2.0 ± 0.8
+  Automated: 5.0 ± 0.0
+  Improvement: +3.0
+  p-value: 0.2500
+
+Lesion Detection Completeness:
+  Traditional: 4.0 ± 0.0
+  Automated: 4.0 ± 0.0
+  Improvement: +0.0
+  p-value: 1.0000
+
+Classification Accuracy:
+  Traditional: 4.3 ± 0.5
+  Automated: 4.0 ± 0.0
+  Improvement: -0.3
+  p-value: 0.3173
+
+Quantitative Detail:
+  Traditional: 4.0 ± 0.0
+  Automated: 4.7 ± 0.5
+  Improvement: +0.7
+  p-value: 0.1573
+
+Reproducibility:
+  Traditional: 4.0 ± 0.0
+  Automated: 5.0 ± 0.0
+  Improvement: +1.0
+  p-value: 0.2500
+
+Clinical Utility:
+  Traditional: 4.0 ± 0.0
+  Automated: 4.3 ± 0.5
+  Improvement: +0.3
+  p-value: 0.3173
+
+Report Organization:
+  Traditional: 4.0 ± 0.0
+  Automated: 4.3 ± 0.5
+  Improvement: +0.3
+  p-value: 0.3173
+
+Educational Value:
+  Traditional: 5.0 ± 0.0
+  Automated: 5.0 ± 0.0
+  Improvement: +0.0
+  p-value: 1.0000
+
+Diagnostic Confidence:
+  Traditional: 4.3 ± 0.5
+  Automated: 4.0 ± 0.0
+  Improvement: -0.3
+  p-value: 0.3173
+
+Workflow Integration:
+  Traditional: 4.3 ± 0.5
+  Automated: 4.7 ± 0.5
+  Improvement: +0.3
+  p-value: 0.7500
+
+OVERALL ASSESSMENT
+----------------------------------------------------------------------
+Expert Ratings: [9.0, 9.0, 9.0]
+Mean Rating: 9.0 ± 0.0 / 10
+
+======================================================================
+Report saved successfully
