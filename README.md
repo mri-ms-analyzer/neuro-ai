@@ -132,16 +132,17 @@ neuro-ai/
 │   ├── gray_matter_segmentation/
 │   └── wmh_segmentation/
 │
-├── data/                        # Sample data and examples
-│   ├── sample_cases/            # 3 representative cases
-│   ├── validation_cases/        # 15 validation cases
+├── data/                        # Supporting data and examples
+│   ├── institutional_validation_cases/            # 9 representative local cases
+│   ├── external_validation_cases/                 # 6 representative public cases
 │   └── AI_outputs/              # AI-analyzed results
 │
 ├── validation/                  # Validation scripts and data
 │   ├── expert_evaluation_data/  # Expert assessment results
-│   ├── evaluation_analysis_results/  # Statistical Analysis Results
-│   ├── statistical_analysis.py  # Correlation and metrics
-│   └── generate_figures.py      # Reproduce manuscript figures
+│   ├── evaluation_analysis_results/  # Statistical analysis results
+│   ├── ms_evaluation_integrated.py   # Statistical analysis and metrics
+│   ├── ms_table_generator.py         # Tables of statistical metrics
+│   └── ms_visualization_generator    # Figures of statistical metrics
 │
 ├── notebooks/                   # Jupyter tutorials
 │   ├── 01_quick_start.ipynb
@@ -157,8 +158,7 @@ neuro-ai/
 │   └── FAQ.md
 │
 └── scripts/                     # Utility scripts
-    ├── download_models.sh       # Download pre-trained weights
-    └── process_msseg2016.py     # MSSEG2016 preprocessing
+    └── download_models.sh       # Download pre-trained weights
 ```
 
 ---
