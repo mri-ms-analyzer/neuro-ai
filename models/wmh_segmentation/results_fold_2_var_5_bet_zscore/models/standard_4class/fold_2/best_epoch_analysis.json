@@ -1,0 +1,46 @@
+{
+  "best_overall_epoch": 25,
+  "best_overall_epoch_idx": 24,
+  "best_abnormal_epoch": 50,
+  "best_abnormal_dice": 0.738841335732084,
+  "best_ventricles_epoch": 41,
+  "best_ventricles_dice": 0.9087642617362606,
+  "best_val_loss_epoch": 25,
+  "best_val_loss": 0.1767234355211258,
+  "composite_score": 0.7186613780239635,
+  "abnormal_key": "class_3",
+  "num_classes": 4,
+  "first_valid_epoch": 25,
+  "total_valid_epochs": 36,
+  "beta_threshold": 0.95,
+  "total_epochs": 60,
+  "best_epoch_metrics": {
+    "dice": {
+      "class_0": 0.9979150845702401,
+      "class_1": 0.9059213776549883,
+      "class_2": 0.7050868295669533,
+      "class_3": 0.7338521539352593,
+      "mean": 0.8356938614318603
+    },
+    "precision": {
+      "class_0": 0.9977677050605538,
+      "class_1": 0.9251742707390673,
+      "class_2": 0.6930513595142899,
+      "class_3": 0.7320660863360026,
+      "mean": 0.8370148554124783
+    },
+    "recall": {
+      "class_0": 0.9980625076249793,
+      "class_1": 0.887453455410148,
+      "class_2": 0.7175477009671652,
+      "class_3": 0.73564695800937,
+      "mean": 0.8346776555029156
+    },
+    "val_loss": 0.1767234355211258,
+    "gen_total_loss": 11.620675086975098,
+    "gen_gan_loss": 0.9574075937271118,
+    "gen_seg_loss": 0.21326537430286407,
+    "disc_loss": 1.1983426809310913,
+    "beta_value": 0.9525741338729858
+  }
+}
