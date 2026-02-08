@@ -5,7 +5,7 @@
 [![TensorFlow 2.11](https://img.shields.io/badge/TensorFlow-2.11-orange.svg)](https://tensorflow.org/)
 [![Medical Imaging](https://img.shields.io/badge/domain-Medical%20Imaging-green.svg)](https://github.com/topics/medical-imaging)
 [![Paper Status](https://img.shields.io/badge/paper-under%20review-blue.svg)](https://github.com/Mahdi-Bashiri/wmh-normal-abnormal-segmentation)
-[![Models on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/Bawil/wmh_leverage_normal_abnormal_segmentation)
+[![Models on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/Bawil/neuro-ai)
 
 A comprehensive clinical decision support system for automated multiple sclerosis (MS) lesion characterization from T2-FLAIR MRI imaging. This framework provides standardized, reproducible quantitative metrics aligned with McDonald 2017 diagnostic criteria.
 
